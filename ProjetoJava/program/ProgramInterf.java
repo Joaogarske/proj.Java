@@ -21,9 +21,9 @@ public class ProgramInterf{
 		DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 		
 		System.out.println("Entre os dados do contrato: ");
-		System.out.print("Numero: ");
+		System.out.print("Numero do contrato: ");
 		int number = in.nextInt();
-		System.out.print("Data (dd/MM/yyyy): ");
+		System.out.print("Data do contrato (dd/MM/yyyy): ");
 		LocalDate date = LocalDate.parse(in.next(),fmt);
 		System.out.print("Valor do contrato: ");
 		Double totalValue = in.nextDouble();
